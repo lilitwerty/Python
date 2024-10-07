@@ -1,3 +1,12 @@
+#Задание1
+age = int(input("Введите свой возраст: "))
+if age <=18:
+          print("Вы несовершеннолетний")
+elif age < 65 and age > 17:
+    print("Вы трудоспособный")
+elif age >= 65:
+    print("Вы пенсионер")
+
 #Задание 2
 cost=int(input("Введите стоимость"))
 if cost<1000:
@@ -6,17 +15,32 @@ elif cost>=1000 and cost<=5000:
     print(cost-(cost*0.05))
 elif cost>5000:
     print(cost-(cost*0.1))
+
+#Задание3
+a = int(input())
+b = int(input())
+c = str(input())
+if c == "+":
+    print(a+b)
+elif c == "-":
+    print(a-b)
+elif c == "/":
+    print(a/b)
+elif c == "*":
+    print(a*b)
+
 #Задание 4
 num=int(input("Введите число"))
 if num%10==2 or num%10==6:
     print(True)
 else:
     print(False)
+
 #Задание 6
 x=input("Введите координаты")
-if x="b1" or x="b3" or x="b7" or x="c1" or x="c4" or x="c5" or x="c6" or x="c8" or x="c9":
+if x=="b1" or x=="b3" or x=="b7" or x=="c1" or x=="c4" or x=="c5" or x=="c6" or x=="c8" or x=="c9":
     print("Синий попугай")
-elif x="b2" or x="b4" or x="b6" or x="b8" or x="c2" or x="c7" or x="c10" or x="c11":
+elif x=="b2" or x=="b4" or x=="b6" or x=="b8" or x=="c2" or x=="c7" or x=="c10" or x=="c11":
     print("Зеленый попугай")
 else:
     print("Квадрат пустой")
