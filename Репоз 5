@@ -12,3 +12,11 @@ if num%10==2 or num%10==6:
     print(True)
 else:
     print(False)
+#Задание 6
+x=input("Введите координаты")
+if x="b1" or x="b3" or x="b7" or x="c1" or x="c4" or x="c5" or x="c6" or x="c8" or x="c9":
+    print("Синий попугай")
+elif x="b2" or x="b4" or x="b6" or x="b8" or x="c2" or x="c7" or x="c10" or x="c11":
+    print("Зеленый попугай")
+else:
+    print("Квадрат пустой")
