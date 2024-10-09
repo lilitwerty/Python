@@ -36,6 +36,14 @@ if num%10==2 or num%10==6:
 else:
     print(False)
 
+#Задание 5
+password = "1234"
+wok = input("Введи пароль: ")
+if password == wok:
+    print("Доступ разрешён")
+else:
+    print("Неверный пароль.")
+
 #Задание 6
 x=input("Введите координаты")
 if x=="b1" or x=="b3" or x=="b7" or x=="c1" or x=="c4" or x=="c5" or x=="c6" or x=="c8" or x=="c9":
