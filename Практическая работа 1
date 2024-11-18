@@ -1,4 +1,4 @@
-Задание 1
+#Задание 1
 first_num = 9
 second_num = 7.8
 my_str = "start"
@@ -17,7 +17,7 @@ print(my_str)
 my_str *= 5
 print(my_str)
 
-Задание 2 
+#Задание 2 
 path = "C:\\Users\\MainAdmin\\Desktop\\programs"
 print(path)
 path += "\\game.exe"
@@ -29,7 +29,7 @@ path = "C:\\Games\\city simulator"
 path *= 2
 print(f"Error path: {path}")
 
-Задание 3 
+#Задание 3 
 num_1 = 7
 num_2 = 10
 num_3 = 4
